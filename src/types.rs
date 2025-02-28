@@ -78,21 +78,21 @@ impl TypedTransaction {
         }
     }
 
-    pub fn info_legacy(self) -> Option<TxLegacy> {
+    pub fn into_legacy(self) -> Option<TxLegacy> {
         match self {
             Self::Legacy(legacy) => Some(legacy),
             _ => None
         }
     }
 
-    pub fn info_eip2930(self) -> Option<TxEip2930> {
+    pub fn into_eip2930(self) -> Option<TxEip2930> {
         match self {
             Self::Eip2930(eip2930) => Some(eip2930),
             _ => None
         }
     }
 
-    pub fn info_eip1559(self) -> Option<TxEip1559> {
+    pub fn into_eip1559(self) -> Option<TxEip1559> {
         match self {
             Self::Eip1559(eip1559) => Some(eip1559),
             _ => None

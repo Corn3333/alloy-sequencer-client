@@ -60,7 +60,6 @@ impl L1IncomingMessageHeader {
             }
         }
         // else if kind == 3 { // L2MessageKind_Batch
-        //     return None;
         //     let buffer = data.get(1..)?;
 
         //     let mut vec_tx = Vec::new();
