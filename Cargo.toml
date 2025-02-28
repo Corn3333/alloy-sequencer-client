@@ -1,0 +1,27 @@
+[package]
+name = "alloy_sequencer_client"
+version = "0.11.0"
+edition = "2021"
+
+
+[dependencies]
+futures = "0.3.5"
+tungstenite = "0.26.2"
+tokio-tungstenite = { version = "0.26.2", features = ["native-tls"] }
+base64 = "0.22.1"
+serde_json = "1.0.139"
+serde = { version = "1.0.218", features = ["derive"] }
+hex = "0.4.3"
+url = "2.5.4"
+env_logger = "0.10"
+log = "0.4"
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread", "time", "sync", "tracing"] }
+thiserror = "1.0"
+
+
+
+alloy-primitives = "0.8.20"
+alloy-rpc-types = "0.11.0"
+alloy-rlp = {version = "0.3.11", features = ["derive"]}
+
+
