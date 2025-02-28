@@ -4,6 +4,13 @@ Returns only L2MessageKind_SignedTx messages.
 
 Also supports L2MessageKind_Batch, but by default it is not provided, because I don't know what these transactions are, they don't get into the blockchain. If you know what to do with them -> open issues.
 
+## Installation
+
+Add `alloy-sequencer-client` to your `Cargo.toml`.
+
+```toml
+alloy-sequencer-client = {git = "https://github.com/Corn3333/alloy-sequencer-client"}
+```
 
 ## Quick Start
 To use this sequencer-client, you'll need Tokio as your main runtime.
