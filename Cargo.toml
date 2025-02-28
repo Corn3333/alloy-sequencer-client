@@ -1,5 +1,5 @@
 [package]
-name = "alloy_sequencer_client"
+name = "alloy-sequencer-client"
 version = "0.11.0"
 edition = "2021"
 

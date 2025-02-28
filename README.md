@@ -53,7 +53,9 @@ async fn main() {
 ## Credits
 
 - [alloy]
+- [fulcrum]
 - [sequencer-client-rs]
 
 [alloy]: https://github.com/alloy-rs
+[alloy]: https://github.com/jordy25519/fulcrum
 [sequencer-client-rs]: https://github.com/duoxehyon/sequencer-client-rs
