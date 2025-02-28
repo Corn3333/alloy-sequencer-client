@@ -57,5 +57,5 @@ async fn main() {
 - [sequencer-client-rs]
 
 [alloy]: https://github.com/alloy-rs
-[alloy]: https://github.com/jordy25519/fulcrum
+[fulcrum]: https://github.com/jordy25519/fulcrum
 [sequencer-client-rs]: https://github.com/duoxehyon/sequencer-client-rs
